@@ -25,9 +25,10 @@ stages{
            
         }
 
-                stage ("Deploy to Production"){
+                stage ("Deploy to stage"){
                     steps {
-                        echo 'Code deployed..'
+                        echo 'deploying to stage..'
+                        build job: 'Deploy-to-staging'
                     }
                 }
             }
