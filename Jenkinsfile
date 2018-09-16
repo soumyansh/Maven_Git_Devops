@@ -22,7 +22,7 @@ stages{
 
                 stage ("Deploy to stage"){
                     steps {
-                        echo 'deploying to stage..'
+                        echo 'deploying to stage....'
                         
                     }
                 }
