@@ -14,7 +14,7 @@ stages{
            
                    steps {
                 echo 'Building ..'
-				sh 'mvn clean package'
+				bat 'mvn clean package'
             }
 			post{
 			success{
